@@ -1,8 +1,6 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-<script lang="javascript" src="static/js/main.js"></script>
-
 <div class="row">
     <div class="col-md-5">
             {% with mensajes = get_flashed_messages() %}
@@ -27,7 +25,7 @@
                         <input type="text" name="email" placeholder="Correo Electronico"
                         class="form-control" id="email"><br>
 
-                        <button tupe="Submit" class="btn btn-success btn-block btn-validar">Guardar</button>
+                        <button tupe="Submit" class="btn btn-success btn-block">Guardar</button>
                     </div>                
                 </form>
         </div>

@@ -10,15 +10,3 @@ if(btnDelete){
         });
     });
 }
-
-var btnValidar = document.querySelectorAll('.btn-validar')
-if(btnValidar){
-    var name = document.getElementById("fullname").value;
-    var phone = document.getElementById("phone").value;
-    var email = document.getElementById("email").value;
-    if(name == "" || phone == "" || email==""){
-        alert("Llena el campo");
-        return false;
-    }
-
-}
